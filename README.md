@@ -60,6 +60,8 @@ included a file named AccuKnox.postman_collection.json for the Postman Collectio
 - Method: GET
 - Request Query Parameters: logined User id
 
+for run the app in docker
+>      docker-compose up -d --build
 
 ## DATABASE SETUP
 - Create a new database named `social_network` in your PostgresSQL.
