@@ -63,10 +63,10 @@ included a file named AccuKnox.postman_collection.json for the Postman Collectio
 
 ## DATABASE SETUP
 - Create a new database named `social_network` in your PostgresSQL.
->      all the database settings are in Accuknox > settings.py file under DATABASES check DB parameters 
+>      all the database settings are in .env.dev file check parameters 
 
 - Run the following command to create the tables in the database in docker.
->      docker-compose exec db psql -U your_database_user -d postgres
+>      docker-compose exec db psql -U postgres -d postgres
 >      CREATE DATABASE social_network;
 
 - perform DB migrations using commands:
